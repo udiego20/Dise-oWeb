@@ -1,0 +1,11 @@
+p,strong
+{
+    border: 1px solid;
+}
+
+#caja { /* # para clase */
+    margin: 0px;
+    padding: 28px;
+    background-color: firebrick;
+    width: 100px;
+}

@@ -1,0 +1,27 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr sfr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    grid-template-areas: "head head" "menu main" "foot foot";
+}
+
+.a{
+    grid-area: head;
+    background-color: yellow;
+}
+
+.b{
+    grid-area: menu;
+    background-color: red;
+}
+
+.c{
+    grid-area: main;
+    background-color: blue;
+}
+
+.d{
+    grid-area: foot;
+    background-color: darkorange;
+}
